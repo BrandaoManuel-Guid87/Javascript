@@ -1,2 +1,2 @@
-# Javascript
- primeiro repositorio do curso de Git GitHub 
+# JavaScript
+ Primeiro Repositório do curso de Git GitHub criado com o Professor Gustavo!
