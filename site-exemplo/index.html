@@ -11,10 +11,34 @@
     <h1>Olá, Mundo</h1>
     
     <hr>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit, corrupti laborum tenetur possimus est asperiores quas quasi culpa incidunt hic harum nesciunt sint eveniet placeat nemo dolor? Dolor, ducimus?</p>
+    <header>
+        <h1>Cursos de TI</h1>
+        <p>Invista no seu futuro com nossos cursos de Tecnologia da Informação.</p>
+    </header>
 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam ullam impedit hic ex, qui deserunt quis accusamus nemo accusantium ducimus magnam possimus itaque necessitatibus tenetur eos delectus rerum ipsa?</p>
-   <hr>
+    <main>
+        <section>
+            <h2>Cursos Disponíveis</h2>
+            <ul id="cursos-list">
+                <li>Curso de Desenvolvimento Web</li>
+                <li>Curso de Análise de Dados</li>
+                <li>Curso de Segurança Cibernética</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Inscreva-se</h2>
+            <form id="inscricao-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit" onclick="registrarInscricao()">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+    <hr>
+
     <footer>
         <marquee>
             <p>© 2024 Cursos de TI. Todos os direitos reservados, não perca mais tempo é pra já</p>
